@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E703471CE8815D4AF241577 /* Pods_BigTreeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB2D25319B269F8D682CCA5 /* Pods_BigTreeFramework.framework */; };
 		B6BEB65623F13EF30023C5FB /* BigTreeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BEB65423F13EF30023C5FB /* BigTreeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6BEB65D23F13F000023C5FB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BEB65C23F13F000023C5FB /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AC66DF797456EDDF76278E3 /* Pods-BigTreeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTreeFramework.release.xcconfig"; path = "Target Support Files/Pods-BigTreeFramework/Pods-BigTreeFramework.release.xcconfig"; sourceTree = "<group>"; };
+		3C1E0C67B43EB87A352F7111 /* Pods-BigTreeFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTreeFramework.debug.xcconfig"; path = "Target Support Files/Pods-BigTreeFramework/Pods-BigTreeFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BEB65123F13EF30023C5FB /* BigTreeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigTreeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BEB65423F13EF30023C5FB /* BigTreeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigTreeFramework.h; sourceTree = "<group>"; };
 		B6BEB65523F13EF30023C5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BEB65C23F13F000023C5FB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DDB2D25319B269F8D682CCA5 /* Pods_BigTreeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTreeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,17 +27,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E703471CE8815D4AF241577 /* Pods_BigTreeFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8656ABCF6DD02F0E921510B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C1E0C67B43EB87A352F7111 /* Pods-BigTreeFramework.debug.xcconfig */,
+				1AC66DF797456EDDF76278E3 /* Pods-BigTreeFramework.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACC9FCB957354E15712CFFCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2D25319B269F8D682CCA5 /* Pods_BigTreeFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6BEB64723F13EF30023C5FB = {
 			isa = PBXGroup;
 			children = (
 				B6BEB65323F13EF30023C5FB /* BigTreeFramework */,
 				B6BEB65223F13EF30023C5FB /* Products */,
+				8656ABCF6DD02F0E921510B3 /* Pods */,
+				ACC9FCB957354E15712CFFCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6BEB65923F13EF30023C5FB /* Build configuration list for PBXNativeTarget "BigTreeFramework" */;
 			buildPhases = (
+				83E8D2550679576C20D30460 /* [CP] Check Pods Manifest.lock */,
 				B6BEB64C23F13EF30023C5FB /* Headers */,
 				B6BEB64D23F13EF30023C5FB /* Sources */,
 				B6BEB64E23F13EF30023C5FB /* Frameworks */,
@@ -129,6 +155,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83E8D2550679576C20D30460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigTreeFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6BEB64D23F13EF30023C5FB /* Sources */ = {
@@ -264,6 +315,7 @@
 		};
 		B6BEB65A23F13EF30023C5FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1E0C67B43EB87A352F7111 /* Pods-BigTreeFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +342,7 @@
 		};
 		B6BEB65B23F13EF30023C5FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC66DF797456EDDF76278E3 /* Pods-BigTreeFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

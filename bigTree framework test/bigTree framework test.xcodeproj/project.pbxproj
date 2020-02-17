@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0A795F0D89976A786AB299 /* Pods_bigTree_framework_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E026920BDCA6D6F6F97669 /* Pods_bigTree_framework_test.framework */; };
+		B6161C8A23FA7804000C648D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6161C8923FA7804000C648D /* AppDelegate.swift */; };
+		B6161C8C23FA7804000C648D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6161C8B23FA7804000C648D /* SceneDelegate.swift */; };
+		B6161C8E23FA7804000C648D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6161C8D23FA7804000C648D /* ViewController.swift */; };
+		B6161C9123FA7804000C648D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6161C8F23FA7804000C648D /* Main.storyboard */; };
+		B6161C9323FA7806000C648D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6161C9223FA7806000C648D /* Assets.xcassets */; };
+		B6161C9623FA7806000C648D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6161C9423FA7806000C648D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1019B4DB5CE2A6B6F0FFD5F5 /* Pods-bigTree framework test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigTree framework test.debug.xcconfig"; path = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test.debug.xcconfig"; sourceTree = "<group>"; };
+		7933BDF71A495462250BE3B7 /* Pods-bigTree framework test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigTree framework test.release.xcconfig"; path = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test.release.xcconfig"; sourceTree = "<group>"; };
+		B0E026920BDCA6D6F6F97669 /* Pods_bigTree_framework_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigTree_framework_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6161C8623FA7804000C648D /* bigTree framework test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bigTree framework test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6161C8923FA7804000C648D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6161C8B23FA7804000C648D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6161C8D23FA7804000C648D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6161C9023FA7804000C648D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6161C9223FA7806000C648D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6161C9523FA7806000C648D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6161C9723FA7806000C648D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6161C8323FA7804000C648D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0A795F0D89976A786AB299 /* Pods_bigTree_framework_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2588DBE05972EE2605C207CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E026920BDCA6D6F6F97669 /* Pods_bigTree_framework_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		875B5218EBCE2827CA7ACDC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1019B4DB5CE2A6B6F0FFD5F5 /* Pods-bigTree framework test.debug.xcconfig */,
+				7933BDF71A495462250BE3B7 /* Pods-bigTree framework test.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6161C7D23FA7804000C648D = {
+			isa = PBXGroup;
+			children = (
+				B6161C8823FA7804000C648D /* bigTree framework test */,
+				B6161C8723FA7804000C648D /* Products */,
+				875B5218EBCE2827CA7ACDC6 /* Pods */,
+				2588DBE05972EE2605C207CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6161C8723FA7804000C648D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6161C8623FA7804000C648D /* bigTree framework test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6161C8823FA7804000C648D /* bigTree framework test */ = {
+			isa = PBXGroup;
+			children = (
+				B6161C8923FA7804000C648D /* AppDelegate.swift */,
+				B6161C8B23FA7804000C648D /* SceneDelegate.swift */,
+				B6161C8D23FA7804000C648D /* ViewController.swift */,
+				B6161C8F23FA7804000C648D /* Main.storyboard */,
+				B6161C9223FA7806000C648D /* Assets.xcassets */,
+				B6161C9423FA7806000C648D /* LaunchScreen.storyboard */,
+				B6161C9723FA7806000C648D /* Info.plist */,
+			);
+			path = "bigTree framework test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6161C8523FA7804000C648D /* bigTree framework test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6161C9A23FA7806000C648D /* Build configuration list for PBXNativeTarget "bigTree framework test" */;
+			buildPhases = (
+				6ECCC1D1DD48BEE3A5B61AB0 /* [CP] Check Pods Manifest.lock */,
+				B6161C8223FA7804000C648D /* Sources */,
+				B6161C8323FA7804000C648D /* Frameworks */,
+				B6161C8423FA7804000C648D /* Resources */,
+				B189426DA1BA553E61B4DCE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bigTree framework test";
+			productName = "bigTree framework test";
+			productReference = B6161C8623FA7804000C648D /* bigTree framework test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6161C7E23FA7804000C648D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = greattree;
+				TargetAttributes = {
+					B6161C8523FA7804000C648D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = B6161C8123FA7804000C648D /* Build configuration list for PBXProject "bigTree framework test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6161C7D23FA7804000C648D;
+			productRefGroup = B6161C8723FA7804000C648D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6161C8523FA7804000C648D /* bigTree framework test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6161C8423FA7804000C648D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6161C9623FA7806000C648D /* LaunchScreen.storyboard in Resources */,
+				B6161C9323FA7806000C648D /* Assets.xcassets in Resources */,
+				B6161C9123FA7804000C648D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ECCC1D1DD48BEE3A5B61AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bigTree framework test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B189426DA1BA553E61B4DCE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6161C8223FA7804000C648D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6161C8E23FA7804000C648D /* ViewController.swift in Sources */,
+				B6161C8A23FA7804000C648D /* AppDelegate.swift in Sources */,
+				B6161C8C23FA7804000C648D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6161C8F23FA7804000C648D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6161C9023FA7804000C648D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6161C9423FA7806000C648D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6161C9523FA7806000C648D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6161C9823FA7806000C648D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6161C9923FA7806000C648D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6161C9B23FA7806000C648D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1019B4DB5CE2A6B6F0FFD5F5 /* Pods-bigTree framework test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NDQP4HASD;
+				INFOPLIST_FILE = "bigTree framework test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greattree.bigTree-framework-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6161C9C23FA7806000C648D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7933BDF71A495462250BE3B7 /* Pods-bigTree framework test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NDQP4HASD;
+				INFOPLIST_FILE = "bigTree framework test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greattree.bigTree-framework-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6161C8123FA7804000C648D /* Build configuration list for PBXProject "bigTree framework test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6161C9823FA7806000C648D /* Debug */,
+				B6161C9923FA7806000C648D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6161C9A23FA7806000C648D /* Build configuration list for PBXNativeTarget "bigTree framework test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6161C9B23FA7806000C648D /* Debug */,
+				B6161C9C23FA7806000C648D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6161C7E23FA7804000C648D /* Project object */;
+}

@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01343678EAF61D2E73F73D59320918F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		245ACE9D31FBC33FE3325E358830E28A /* Pods-bigTree framework test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED32AFB9741A2B668272327867E487A6 /* Pods-bigTree framework test-dummy.m */; };
+		363982300FF08B4B7240531C20BF420F /* BigTreeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8D18BDA93711335726F82A51F2ECD1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658072107502819FEE159234C01EA765 /* Service.swift */; };
+		8B3F0BF825A554F03321CA714D551FC4 /* BigTreeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */; };
+		941BFB199AE8C1899BB8439EF088321C /* BigTreeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F3EF6907FEAFD0CDB582226B9B65F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		BA9CD848F5261A7B65DDE7E6FA649E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FFD7E72973900FC082D628BA5B1D7186 /* Pods-bigTree framework test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0482D3164096A338D82E5B3D871A7EC /* Pods-bigTree framework test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE22C7426A29D6A7A382D05DA0471742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C117C3FF344F0976E6CDA964B87EF11A;
+			remoteInfo = BigTreeFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C730164847D56F2B9513DD4ECEC18B3 /* BigTreeFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigTreeFramework-Info.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		348DF873BC0B5C6BEF142BA9B7C27287 /* BigTreeFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BigTreeFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BigTreeFramework.h; path = BigTreeFramework/BigTreeFramework.h; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4595AD28626585090A81270F1F873D97 /* Pods_bigTree_framework_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bigTree_framework_test.framework; path = "Pods-bigTree framework test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658072107502819FEE159234C01EA765 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = BigTreeFramework/Service.swift; sourceTree = "<group>"; };
+		6DA8A1695E4F7230CA63BE7FFF5EEF39 /* Pods-bigTree framework test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bigTree framework test.release.xcconfig"; sourceTree = "<group>"; };
+		8499B461C58E861E93E2948AE13D826E /* BigTreeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-prefix.pch"; sourceTree = "<group>"; };
+		9715BDFEFF3AA3D56DEC15AF8A4394C3 /* BigTreeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigTreeFramework.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A559718521CEFA54E9CC224D8B3BFFE4 /* Pods-bigTree framework test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bigTree framework test-frameworks.sh"; sourceTree = "<group>"; };
+		B204D58DDD1013E46FF5127EFD2304B0 /* BigTreeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigTreeFramework.framework; path = BigTreeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBC16D85791331C836177FD2E7FF00E /* Pods-bigTree framework test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bigTree framework test.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigTreeFramework-dummy.m"; sourceTree = "<group>"; };
+		CC1A3491742164B2C184781FB512BC6F /* Pods-bigTree framework test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bigTree framework test-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0482D3164096A338D82E5B3D871A7EC /* Pods-bigTree framework test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bigTree framework test-umbrella.h"; sourceTree = "<group>"; };
+		D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-umbrella.h"; sourceTree = "<group>"; };
+		DC427E7E5A9E84F39B82602AA8246636 /* Pods-bigTree framework test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bigTree framework test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E16122FEEFAACC7ACF3742924D267728 /* Pods-bigTree framework test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bigTree framework test.modulemap"; sourceTree = "<group>"; };
+		E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigTreeFramework.xcconfig; sourceTree = "<group>"; };
+		ED32AFB9741A2B668272327867E487A6 /* Pods-bigTree framework test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bigTree framework test-dummy.m"; sourceTree = "<group>"; };
+		F5C06F5469E419AF2E39FC7AE935BDAB /* Pods-bigTree framework test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bigTree framework test-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B7771002458C76C570E53401CDDFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01343678EAF61D2E73F73D59320918F5 /* Foundation.framework in Frameworks */,
+				96F3EF6907FEAFD0CDB582226B9B65F6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDAEF6E62BE0011FF5A13A4D197723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CD848F5261A7B65DDE7E6FA649E3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DF676C7B21B27004E4EA289A398EF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C384BE52ED7D2C18D9DFFBC67A3FCA9 /* BigTreeFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C384BE52ED7D2C18D9DFFBC67A3FCA9 /* BigTreeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */,
+				658072107502819FEE159234C01EA765 /* Service.swift */,
+				D50B2E0EC67057FA1F3B9A5D47EA1D89 /* Pod */,
+				D347A82E85EE88C3FF0FDEE576611DF0 /* Support Files */,
+			);
+			name = BigTreeFramework;
+			path = ../../BigTreeFramework;
+			sourceTree = "<group>";
+		};
+		4E5D092B7740EB5784C0CCBD337515FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF98E512111FA27086F00193C77F114B /* Pods-bigTree framework test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF98E512111FA27086F00193C77F114B /* Pods-bigTree framework test */ = {
+			isa = PBXGroup;
+			children = (
+				E16122FEEFAACC7ACF3742924D267728 /* Pods-bigTree framework test.modulemap */,
+				DC427E7E5A9E84F39B82602AA8246636 /* Pods-bigTree framework test-acknowledgements.markdown */,
+				CC1A3491742164B2C184781FB512BC6F /* Pods-bigTree framework test-acknowledgements.plist */,
+				ED32AFB9741A2B668272327867E487A6 /* Pods-bigTree framework test-dummy.m */,
+				A559718521CEFA54E9CC224D8B3BFFE4 /* Pods-bigTree framework test-frameworks.sh */,
+				F5C06F5469E419AF2E39FC7AE935BDAB /* Pods-bigTree framework test-Info.plist */,
+				D0482D3164096A338D82E5B3D871A7EC /* Pods-bigTree framework test-umbrella.h */,
+				BEBC16D85791331C836177FD2E7FF00E /* Pods-bigTree framework test.debug.xcconfig */,
+				6DA8A1695E4F7230CA63BE7FFF5EEF39 /* Pods-bigTree framework test.release.xcconfig */,
+			);
+			name = "Pods-bigTree framework test";
+			path = "Target Support Files/Pods-bigTree framework test";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				14DF676C7B21B27004E4EA289A398EF3 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DEA4475252342AFED4F3D6D41AA2C2EB /* Products */,
+				4E5D092B7740EB5784C0CCBD337515FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D347A82E85EE88C3FF0FDEE576611DF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9715BDFEFF3AA3D56DEC15AF8A4394C3 /* BigTreeFramework.modulemap */,
+				E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */,
+				BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */,
+				2C730164847D56F2B9513DD4ECEC18B3 /* BigTreeFramework-Info.plist */,
+				8499B461C58E861E93E2948AE13D826E /* BigTreeFramework-prefix.pch */,
+				D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../bigTree framework test/Pods/Target Support Files/BigTreeFramework";
+			sourceTree = "<group>";
+		};
+		D50B2E0EC67057FA1F3B9A5D47EA1D89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				348DF873BC0B5C6BEF142BA9B7C27287 /* BigTreeFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DEA4475252342AFED4F3D6D41AA2C2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B204D58DDD1013E46FF5127EFD2304B0 /* BigTreeFramework.framework */,
+				4595AD28626585090A81270F1F873D97 /* Pods_bigTree_framework_test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8EF9127676AB0E6B50A7B967C6F54C9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7E72973900FC082D628BA5B1D7186 /* Pods-bigTree framework test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0735A74E09502A8D7AD2CB47C763824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363982300FF08B4B7240531C20BF420F /* BigTreeFramework-umbrella.h in Headers */,
+				941BFB199AE8C1899BB8439EF088321C /* BigTreeFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C117C3FF344F0976E6CDA964B87EF11A /* BigTreeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ED1A171BD7DC4C2D878746F6FC36C5 /* Build configuration list for PBXNativeTarget "BigTreeFramework" */;
+			buildPhases = (
+				D0735A74E09502A8D7AD2CB47C763824 /* Headers */,
+				5D4767FD53EC080E008EA8827326DA16 /* Sources */,
+				07B7771002458C76C570E53401CDDFBD /* Frameworks */,
+				D3F731E0F1DCC241214A2FFCDF248275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigTreeFramework;
+			productName = BigTreeFramework;
+			productReference = B204D58DDD1013E46FF5127EFD2304B0 /* BigTreeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5F075D326257F858F30ABA5768892E2 /* Pods-bigTree framework test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC72AFE590DAC74296ADF50BC1FB3D86 /* Build configuration list for PBXNativeTarget "Pods-bigTree framework test" */;
+			buildPhases = (
+				8EF9127676AB0E6B50A7B967C6F54C9F /* Headers */,
+				38908B9DD3826AD55F8F5E6A47F4B365 /* Sources */,
+				47EDAEF6E62BE0011FF5A13A4D197723 /* Frameworks */,
+				2445CB71BE73F46413A4DA7FF7E0BBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3820722AF3AE659F421AB80B3D4F274 /* PBXTargetDependency */,
+			);
+			name = "Pods-bigTree framework test";
+			productName = "Pods-bigTree framework test";
+			productReference = 4595AD28626585090A81270F1F873D97 /* Pods_bigTree_framework_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DEA4475252342AFED4F3D6D41AA2C2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C117C3FF344F0976E6CDA964B87EF11A /* BigTreeFramework */,
+				F5F075D326257F858F30ABA5768892E2 /* Pods-bigTree framework test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2445CB71BE73F46413A4DA7FF7E0BBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F731E0F1DCC241214A2FFCDF248275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38908B9DD3826AD55F8F5E6A47F4B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245ACE9D31FBC33FE3325E358830E28A /* Pods-bigTree framework test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4767FD53EC080E008EA8827326DA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3F0BF825A554F03321CA714D551FC4 /* BigTreeFramework-dummy.m in Sources */,
+				6C8D18BDA93711335726F82A51F2ECD1 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3820722AF3AE659F421AB80B3D4F274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigTreeFramework;
+			target = C117C3FF344F0976E6CDA964B87EF11A /* BigTreeFramework */;
+			targetProxy = BE22C7426A29D6A7A382D05DA0471742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EDE6D2FD21AA6808BCD024B881F3306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBC16D85791331C836177FD2E7FF00E /* Pods-bigTree framework test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F9FE3C7A7633BA9A0B0AD688CCCD7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigTreeFramework/BigTreeFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigTreeFramework/BigTreeFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigTreeFramework/BigTreeFramework.modulemap";
+				PRODUCT_MODULE_NAME = BigTreeFramework;
+				PRODUCT_NAME = BigTreeFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A89398F7C13B03A78EA1A4B1969474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigTreeFramework/BigTreeFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigTreeFramework/BigTreeFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigTreeFramework/BigTreeFramework.modulemap";
+				PRODUCT_MODULE_NAME = BigTreeFramework;
+				PRODUCT_NAME = BigTreeFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B9E486031828E0D948D6710AEF41A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA8A1695E4F7230CA63BE7FFF5EEF39 /* Pods-bigTree framework test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bigTree framework test/Pods-bigTree framework test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ED1A171BD7DC4C2D878746F6FC36C5 /* Build configuration list for PBXNativeTarget "BigTreeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A89398F7C13B03A78EA1A4B1969474B /* Debug */,
+				2F9FE3C7A7633BA9A0B0AD688CCCD7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC72AFE590DAC74296ADF50BC1FB3D86 /* Build configuration list for PBXNativeTarget "Pods-bigTree framework test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE6D2FD21AA6808BCD024B881F3306 /* Debug */,
+				6B9E486031828E0D948D6710AEF41A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

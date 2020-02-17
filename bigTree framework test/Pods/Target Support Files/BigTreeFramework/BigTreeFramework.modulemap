@@ -1,0 +1,6 @@
+framework module BigTreeFramework {
+  umbrella header "BigTreeFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

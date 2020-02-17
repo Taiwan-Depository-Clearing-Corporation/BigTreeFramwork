@@ -1,0 +1,16 @@
+PODS:
+  - BigTreeFramework (1.0.0)
+
+DEPENDENCIES:
+  - BigTreeFramework (from `../BigTreeFramework`)
+
+EXTERNAL SOURCES:
+  BigTreeFramework:
+    :path: "../BigTreeFramework"
+
+SPEC CHECKSUMS:
+  BigTreeFramework: 15c4c9f4a12ec58126770d3da619bf5d022d5660
+
+PODFILE CHECKSUM: e434d61d524e9d5c369bb9714e25f95038cddffb
+
+COCOAPODS: 1.8.4
