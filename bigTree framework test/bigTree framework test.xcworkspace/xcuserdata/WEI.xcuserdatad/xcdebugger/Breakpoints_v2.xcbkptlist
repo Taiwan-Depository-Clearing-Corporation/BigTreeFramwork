@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AB6942D7-118E-46D9-BFFA-4EAE55EC1515"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC7280A8-06E3-4FFA-8D4D-1F096539DA3F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bigTree framework test/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "center"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4F73A73-F8AC-44A2-8B32-54FAACC05CB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bigTree framework test/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "center"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D4F73A73-F8AC-44A2-8B32-54FAACC05CB3 - 18cec540de309eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "center.getter : Point #1 in bigTree_framework_test.ViewController.viewDidLoad() -&gt; () in rectGetSet #1 in bigTree_framework_test.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "bigTree framework test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/WEI/Desktop/BigTreeFrameWork/BigTreeFramwork/bigTree%20framework%20test/bigTree%20framework%20test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "D4F73A73-F8AC-44A2-8B32-54FAACC05CB3 - 18cec540de309eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "center.getter : Point #1 in bigTree_framework_test.ViewController.viewDidLoad() -&gt; () in rectGetSet #1 in bigTree_framework_test.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "bigTree framework test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/WEI/Desktop/BigTreeFrameWork/BigTreeFramwork/bigTree%20framework%20test/bigTree%20framework%20test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

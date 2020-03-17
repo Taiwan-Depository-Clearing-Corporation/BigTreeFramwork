@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		01343678EAF61D2E73F73D59320918F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		245ACE9D31FBC33FE3325E358830E28A /* Pods-bigTree framework test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED32AFB9741A2B668272327867E487A6 /* Pods-bigTree framework test-dummy.m */; };
-		363982300FF08B4B7240531C20BF420F /* BigTreeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C8D18BDA93711335726F82A51F2ECD1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658072107502819FEE159234C01EA765 /* Service.swift */; };
-		8B3F0BF825A554F03321CA714D551FC4 /* BigTreeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */; };
-		941BFB199AE8C1899BB8439EF088321C /* BigTreeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363982300FF08B4B7240531C20BF420F /* BigTreeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F97F88E76AFD102F9A0DE1CC7116E22C /* BigTreeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F825FD5A33EC55B7233FAD550708F2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEF8AEB94C63641FADDE05DA7E82B3 /* Service.swift */; };
+		8B3F0BF825A554F03321CA714D551FC4 /* BigTreeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD3F4A871C535402E7D887D6C05B85 /* BigTreeFramework-dummy.m */; };
 		96F3EF6907FEAFD0CDB582226B9B65F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		BA9CD848F5261A7B65DDE7E6FA649E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D7FCE651536ECF4D7B9E34DE456973A7 /* BigTreeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E39E304CABA9DB59AF9BA5C6FE13B50B /* BigTreeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFD7E72973900FC082D628BA5B1D7186 /* Pods-bigTree framework test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0482D3164096A338D82E5B3D871A7EC /* Pods-bigTree framework test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -29,29 +29,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C730164847D56F2B9513DD4ECEC18B3 /* BigTreeFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigTreeFramework-Info.plist"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		348DF873BC0B5C6BEF142BA9B7C27287 /* BigTreeFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BigTreeFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BigTreeFramework.h; path = BigTreeFramework/BigTreeFramework.h; sourceTree = "<group>"; };
+		3DDEF8AEB94C63641FADDE05DA7E82B3 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = BigTreeFramework/BigTreeFramework/Service.swift; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4595AD28626585090A81270F1F873D97 /* Pods_bigTree_framework_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bigTree_framework_test.framework; path = "Pods-bigTree framework test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		658072107502819FEE159234C01EA765 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = BigTreeFramework/Service.swift; sourceTree = "<group>"; };
 		6DA8A1695E4F7230CA63BE7FFF5EEF39 /* Pods-bigTree framework test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bigTree framework test.release.xcconfig"; sourceTree = "<group>"; };
-		8499B461C58E861E93E2948AE13D826E /* BigTreeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-prefix.pch"; sourceTree = "<group>"; };
-		9715BDFEFF3AA3D56DEC15AF8A4394C3 /* BigTreeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigTreeFramework.modulemap; sourceTree = "<group>"; };
+		7B7D98FABF851603BF64D73A85F35259 /* BigTreeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigTreeFramework.modulemap; sourceTree = "<group>"; };
+		8FAD3F4A871C535402E7D887D6C05B85 /* BigTreeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigTreeFramework-dummy.m"; sourceTree = "<group>"; };
+		9945B1A8A5B32022FEF8103ED88A0BC8 /* BigTreeFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigTreeFramework-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A559718521CEFA54E9CC224D8B3BFFE4 /* Pods-bigTree framework test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bigTree framework test-frameworks.sh"; sourceTree = "<group>"; };
 		B204D58DDD1013E46FF5127EFD2304B0 /* BigTreeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigTreeFramework.framework; path = BigTreeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96493B64807A231B8F1B1096DD7D69 /* BigTreeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigTreeFramework.xcconfig; sourceTree = "<group>"; };
 		BEBC16D85791331C836177FD2E7FF00E /* Pods-bigTree framework test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bigTree framework test.debug.xcconfig"; sourceTree = "<group>"; };
-		BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigTreeFramework-dummy.m"; sourceTree = "<group>"; };
 		CC1A3491742164B2C184781FB512BC6F /* Pods-bigTree framework test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bigTree framework test-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0482D3164096A338D82E5B3D871A7EC /* Pods-bigTree framework test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bigTree framework test-umbrella.h"; sourceTree = "<group>"; };
-		D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-umbrella.h"; sourceTree = "<group>"; };
 		DC427E7E5A9E84F39B82602AA8246636 /* Pods-bigTree framework test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bigTree framework test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E16122FEEFAACC7ACF3742924D267728 /* Pods-bigTree framework test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bigTree framework test.modulemap"; sourceTree = "<group>"; };
-		E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigTreeFramework.xcconfig; sourceTree = "<group>"; };
+		E39E304CABA9DB59AF9BA5C6FE13B50B /* BigTreeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BigTreeFramework.h; path = BigTreeFramework/BigTreeFramework/BigTreeFramework.h; sourceTree = "<group>"; };
 		ED32AFB9741A2B668272327867E487A6 /* Pods-bigTree framework test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bigTree framework test-dummy.m"; sourceTree = "<group>"; };
+		EDF9CFC4101FACD78F84F7D06D211535 /* BigTreeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-prefix.pch"; sourceTree = "<group>"; };
 		F5C06F5469E419AF2E39FC7AE935BDAB /* Pods-bigTree framework test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bigTree framework test-Info.plist"; sourceTree = "<group>"; };
+		F97F88E76AFD102F9A0DE1CC7116E22C /* BigTreeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigTreeFramework-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14DF676C7B21B27004E4EA289A398EF3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4C384BE52ED7D2C18D9DFFBC67A3FCA9 /* BigTreeFramework */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,24 +82,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C384BE52ED7D2C18D9DFFBC67A3FCA9 /* BigTreeFramework */ = {
-			isa = PBXGroup;
-			children = (
-				3748CF38FC99FA3F784213BD4B186B0A /* BigTreeFramework.h */,
-				658072107502819FEE159234C01EA765 /* Service.swift */,
-				D50B2E0EC67057FA1F3B9A5D47EA1D89 /* Pod */,
-				D347A82E85EE88C3FF0FDEE576611DF0 /* Support Files */,
-			);
-			name = BigTreeFramework;
-			path = ../../BigTreeFramework;
-			sourceTree = "<group>";
-		};
 		4E5D092B7740EB5784C0CCBD337515FA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				BF98E512111FA27086F00193C77F114B /* Pods-bigTree framework test */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76221AB212EF6B35435F8A70B59AB4E3 /* BigTreeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E39E304CABA9DB59AF9BA5C6FE13B50B /* BigTreeFramework.h */,
+				3DDEF8AEB94C63641FADDE05DA7E82B3 /* Service.swift */,
+				FCBBE4850E57952423581677A4C186E4 /* Support Files */,
+			);
+			name = BigTreeFramework;
+			path = BigTreeFramework;
+			sourceTree = "<group>";
+		};
+		777B38E7848CE71EE3A867169000994B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76221AB212EF6B35435F8A70B59AB4E3 /* BigTreeFramework */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BF98E512111FA27086F00193C77F114B /* Pods-bigTree framework test */ = {
@@ -132,33 +130,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				14DF676C7B21B27004E4EA289A398EF3 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				777B38E7848CE71EE3A867169000994B /* Pods */,
 				DEA4475252342AFED4F3D6D41AA2C2EB /* Products */,
 				4E5D092B7740EB5784C0CCBD337515FA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D347A82E85EE88C3FF0FDEE576611DF0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9715BDFEFF3AA3D56DEC15AF8A4394C3 /* BigTreeFramework.modulemap */,
-				E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */,
-				BFB7DE598E07FCB21386AAFF8A0D8947 /* BigTreeFramework-dummy.m */,
-				2C730164847D56F2B9513DD4ECEC18B3 /* BigTreeFramework-Info.plist */,
-				8499B461C58E861E93E2948AE13D826E /* BigTreeFramework-prefix.pch */,
-				D218226CF16DDB0DB0A06D85810611DC /* BigTreeFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../bigTree framework test/Pods/Target Support Files/BigTreeFramework";
-			sourceTree = "<group>";
-		};
-		D50B2E0EC67057FA1F3B9A5D47EA1D89 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				348DF873BC0B5C6BEF142BA9B7C27287 /* BigTreeFramework.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		DEA4475252342AFED4F3D6D41AA2C2EB /* Products */ = {
@@ -179,6 +155,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FCBBE4850E57952423581677A4C186E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7D98FABF851603BF64D73A85F35259 /* BigTreeFramework.modulemap */,
+				BC96493B64807A231B8F1B1096DD7D69 /* BigTreeFramework.xcconfig */,
+				8FAD3F4A871C535402E7D887D6C05B85 /* BigTreeFramework-dummy.m */,
+				9945B1A8A5B32022FEF8103ED88A0BC8 /* BigTreeFramework-Info.plist */,
+				EDF9CFC4101FACD78F84F7D06D211535 /* BigTreeFramework-prefix.pch */,
+				F97F88E76AFD102F9A0DE1CC7116E22C /* BigTreeFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BigTreeFramework";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -195,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				363982300FF08B4B7240531C20BF420F /* BigTreeFramework-umbrella.h in Headers */,
-				941BFB199AE8C1899BB8439EF088321C /* BigTreeFramework.h in Headers */,
+				D7FCE651536ECF4D7B9E34DE456973A7 /* BigTreeFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3F0BF825A554F03321CA714D551FC4 /* BigTreeFramework-dummy.m in Sources */,
-				6C8D18BDA93711335726F82A51F2ECD1 /* Service.swift in Sources */,
+				88F825FD5A33EC55B7233FAD550708F2 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +344,7 @@
 		};
 		2F9FE3C7A7633BA9A0B0AD688CCCD7C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */;
+			baseConfigurationReference = BC96493B64807A231B8F1B1096DD7D69 /* BigTreeFramework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -451,7 +441,7 @@
 		};
 		5A89398F7C13B03A78EA1A4B1969474B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E69044C1AB73E208820C108DB78D5902 /* BigTreeFramework.xcconfig */;
+			baseConfigurationReference = BC96493B64807A231B8F1B1096DD7D69 /* BigTreeFramework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

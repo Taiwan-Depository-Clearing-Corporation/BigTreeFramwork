@@ -6,8 +6,8 @@ target 'bigTree framework test' do
   use_frameworks!
 
   # Pods for bigTree framework test
-  pod 'BigTreeFramework', :path => "../BigTreeFramework"
-  
+  pod 'BigTreeFramework' 
+
 
 
 end
